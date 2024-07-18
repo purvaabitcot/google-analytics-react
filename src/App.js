@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './Component/Home';
-import Login from './Component/Login';
 import Register from './Component/Register';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
   return (

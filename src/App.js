@@ -3,14 +3,16 @@ import './App.css';
 import Home from './Component/Home';
 import Login from './Component/Login';
 import Register from './Component/Register';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-      <Login/>
-      <Register/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/' element={<Register/>}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

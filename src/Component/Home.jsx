@@ -3,9 +3,13 @@ import Login from './Login';
 
 const Home = () => {
   return (
-    <div>
-        <h1>Welcome to the Login Page</h1>
+    <div className='d-flex justify-content-center'>
+         <div className='w-75'>
+        <h1 className='text-center'>Welcome to the Login Page</h1>
+       
         <Login/>
+        </div>
+        
     </div>
   )
 }
